@@ -1,0 +1,23 @@
+Metodos:
+	tableCreate()
+	dataEntry()
+	serialRead()
+	parse()
+
+Descripcion:
+	tableCreate():
+		Crea dos tablas identicas, temperatura y humedad
+	dataEntry():
+		tiene dos valores de parametros(tabla y valor), el parametro tabla es para saber en que tabla desea
+		insertar los valores, el parametro valor es el valor que desea insertar en la columna valor.
+	serialRead():
+		lee continuamente el puerto serial del computador y retorna la informacion que se esta mandando
+		
+	parse():
+		recibe una cadena separada por espacios y retorna una lista de enteros.
+
+
+Loop While:
+	guarda la temperatura y la humedad recibida por el puerto serial en sus respectivas tablas en la base de datos.
+
+	
