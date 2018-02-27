@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#main{
+    text-align: center;
+    height:20vh;
+    top: 30vh;
+    font-size: 50px;
+    font-family:"Helvetica Neue";
+    border: white solid 10px;
+    border-radius: 15px;
+    padding-top: 2vh;
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+#container-fluid1{
+    height: 90vh;
+    position: relative;
+
+}
+#container-fluid2{
+    background: DarkCyan;
+
+}
+
+
+p{
+    font-size: 18px;
+    font-family:"Helvetica Neue";
+}
+
+.body{
+    height: 100%;
+    width:100%;
+}
+
+
+
+
